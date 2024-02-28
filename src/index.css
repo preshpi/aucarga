@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Satoshi", sans-serif;
+}
+
+.gradient-text {
+  background: rgb(222, 222, 222);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 7%,
+    rgba(193, 193, 193, 1) 73%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
